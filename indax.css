@@ -1,0 +1,62 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color:lightgreen;   
+}
+h1{
+    margin-top: 100px;
+    text-align:center;
+    justify-content: center;
+    color: rgb(139, 111, 60);
+    display: flex;
+}
+form{
+    text-align:center;
+    justify-content: center;
+    color: orange;
+    background:linear-gradient(orange, red,yellow);
+    width: 100%;
+}
+fieldset{
+    border: 2px solid white;
+    color: white;
+    border-radius:10px;
+    width: 500px;
+    margin: 40px;
+    
+}
+legend{
+    font-weight: bold;
+    text-align: left;
+    margin: 20px;
+     
+}
+input,textarea{
+    width: 300px;  
+}
+input{
+    height: 30px;
+}
+.lab{
+    display:flex ;
+}
+.img{
+    border-radius: 100%;
+}
+button{
+    border-radius: 10px;
+    margin-bottom: 20px;
+    color: rgb(224, 12, 12);
+    background-color: rgba(165, 42, 42, 0.465);
+    width: 200px;
+    height: 30px;
+    
+}
